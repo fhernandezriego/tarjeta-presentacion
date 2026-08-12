@@ -41,13 +41,21 @@ body {
 }
 
 .btn {
-    /* ...tus estilos anteriores... */
+    display: inline-block;
+    margin-top: 16px;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
     transition: background-color 0.3s ease;
 }
 
 .btn:hover {
     background-color: #004c99;
     /* Azul más oscuro al pasar el mouse */
+    transform: translateY(-2px);
+    /* Eleva ligeramente el botón */
 }
 
 .profile-img {
