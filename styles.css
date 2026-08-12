@@ -63,3 +63,29 @@ body {
     border: 3px solid #ffffff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+
+/* Botón para cambiar tema */
+.btn-theme {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+/* Variables para Modo Oscuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .subtitle {
+    color: #bbb;
+}
